@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Raleway", sans-serif;
+  background-color: rgb(65, 185, 131);
+  color: rgb(214, 214, 214);
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.slider-wrapper {
+  position: relative;
+  width: 1350px;
+  height: 650px;
+  margin: 20px auto;
+}
+
+img {
+  height: 100%;
+  width: auto;
+  border-radius: 30px;
+}
+
+i {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: rgba(0, 0, 0, 0.418);
+  font-size: 50px;
+  cursor: pointer;
+}
+
+i:first-child {
+  left: -50px;
+}
+i:last-child {
+  right: -50px;
+}
